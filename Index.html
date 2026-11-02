@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BPT-109 Assignment 1 | Anjali Yadav</title>
+<style>
+:root{--navy:#14213d;--blue:#2563eb;--teal:#0f766e;--pale:#eff6ff;--ink:#1f2937;--muted:#64748b;--gold:#f59e0b}
+*{box-sizing:border-box} body{margin:0;background:#eef2f7;color:var(--ink);font:16px/1.65 Arial,Helvetica,sans-serif}
+header{background:linear-gradient(130deg,#14213d,#1d4ed8);color:white;padding:34px 20px 38px;text-align:center}
+header .student{font-size:1rem;letter-spacing:.14em;text-transform:uppercase;color:#bfdbfe;font-weight:bold}
+header h1{margin:8px auto;font-size:clamp(1.8rem,5vw,3rem);line-height:1.15}
+header p{margin:8px auto;max-width:780px;color:#e0e7ff}
+.wrap{max-width:1080px;margin:auto;padding:22px 16px 50px}
+.meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px;margin-top:-2px}
+.meta div{background:white;padding:14px 16px;border-radius:14px;box-shadow:0 5px 20px #14213d0d}
+.meta strong{display:block;color:var(--muted);font-size:.78rem;text-transform:uppercase;letter-spacing:.08em}
+h2{color:var(--navy);margin:34px 0 14px;font-size:1.55rem}
+h3{color:var(--navy);margin:0 0 8px}
+.intro{background:white;border-radius:16px;padding:20px;margin-top:18px;border-left:5px solid var(--teal)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:15px}
+.card{background:white;border-radius:16px;padding:19px;box-shadow:0 7px 24px #14213d0b;border:1px solid #e5eaf2}
+.kicker{color:var(--teal);font-size:.78rem;font-weight:bold;letter-spacing:.1em;text-transform:uppercase}
+p{margin:8px 0 12px} ul,ol{padding-left:22px;margin:8px 0}
+.diagram{background:#f8fafc;border:1px solid #dbeafe;border-radius:12px;padding:14px;margin:12px 0;text-align:center}
+.flow{display:flex;align-items:center;justify-content:center;gap:8px;flex-wrap:wrap}
+.node{background:#dbeafe;border:1px solid #93c5fd;border-radius:9px;padding:10px 12px;font-weight:bold;color:#1e3a8a}
+.node.teal{background:#ccfbf1;border-color:#5eead4;color:#115e59}.arrow{font-weight:bold;color:#64748b;font-size:1.25rem}
+.small{font-size:.9rem;color:var(--muted)}
+.pill{display:inline-block;background:#e0f2fe;color:#075985;border-radius:999px;padding:3px 9px;font-size:.8rem;font-weight:bold;margin:3px}
+table{border-collapse:collapse;width:100%;background:white;margin:12px 0;border-radius:10px;overflow:hidden;font-size:.93rem}
+th,td{border:1px solid #dbe3ee;padding:10px;text-align:left;vertical-align:top}th{background:#eaf1ff;color:#172554}
+.question{margin-top:24px;scroll-margin-top:12px}.qhead{display:flex;gap:12px;align-items:center;margin-bottom:10px}
+.number{background:var(--blue);color:white;min-width:38px;height:38px;border-radius:12px;display:grid;place-items:center;font-weight:bold}
+footer{text-align:center;color:var(--muted);padding:24px;font-size:.9rem}
+@media print{body{background:white}.wrap{max-width:none}.card,.meta div{box-shadow:none;break-inside:avoid}header{print-color-adjust:exact;-webkit-print-color-adjust:exact}.question{break-inside:avoid} }
+</style>
+</head>
+<body>
+<header>
+  <div class="student">Prepared by Anjali Yadav</div>
+  <h1>BPT-109 · Assignment 1</h1>
+  <p>Computer Fundamentals, Input &amp; Output Devices — illustrated study notes and answers</p>
+</header>
+<main class="wrap">
+  <section class="meta">
+    <div><strong>Course</strong>Bachelor of Physiotherapy (BPT)</div>
+    <div><strong>Assignment</strong>BPT-109 · Assignment 1</div>
+    <div><strong>Submission date</strong>13 October 2026</div>
+    <div><strong>Units covered</strong>Unit 1 and Unit 2</div>
+  </section>
+  <section class="intro">
+    <h3>Assignment overview</h3>
+    This page follows the eight assessment questions in the supplied assignment brief. It covers computer characteristics and generations, computer architecture, scanning and card readers, programming languages, pointing and digitizing devices, plotting systems, biometric authentication, and accessible workstation design.
+  </section>
+
+  <h2>Unit 1 — Introduction to Computers</h2>
+  <section class="question">
+    <div class="qhead"><div class="number">1</div><div><div class="kicker">Remembering · List and identify</div><h3>Characteristics and five generations of computers</h3></div></div>
+    <div class="grid">
+      <article class="card"><h3>Four primary characteristics</h3>
+        <div class="diagram"><div class="flow"><span class="node">Input</span><span class="arrow">→</span><span class="node teal">Processing</span><span class="arrow">→</span><span class="node">Output</span></div></div>
+        <ul><li><b>Speed:</b> performs millions or billions of operations rapidly.</li><li><b>Accuracy:</b> produces precise results when data and instructions are correct.</li><li><b>Diligence:</b> repeats tasks without tiring or losing consistency.</li><li><b>Storage:</b> stores large amounts of data and retrieves it when required.</li></ul>
+        <p class="small">Other commonly described characteristics include automation, versatility, and reliability.</p>
+      </article>
+      <article class="card"><h3>Five generations infographic</h3>
+        <div class="diagram">
+          <div class="flow"><span class="node">1 · Vacuum tubes</span><span class="arrow">→</span><span class="node">2 · Transistors</span></div><p class="small">Large and power-hungry → smaller and more reliable</p>
+          <div class="flow"><span class="node">3 · Integrated circuits</span><span class="arrow">→</span><span class="node">4 · Microprocessors</span></div><p class="small">More compact → personal computers and networks</p>
+          <div class="flow"><span class="node teal">5 · AI-oriented systems</span></div>
+        </div>
+        <table><tr><th>Generation</th><th>Main technology</th><th>Typical feature</th></tr>
+          <tr><td>First</td><td>Vacuum tubes</td><td>Very large, high heat and power use</td></tr>
+          <tr><td>Second</td><td>Transistors</td><td>Smaller, faster and more reliable</td></tr>
+          <tr><td>Third</td><td>Integrated circuits (ICs)</td><td>Many components on a chip</td></tr>
+          <tr><td>Fourth</td><td>Microprocessors (VLSI)</td><td>Personal computers and compact devices</td></tr>
+          <tr><td>Fifth</td><td>AI, parallel processing and advanced chips</td><td>Knowledge-based and intelligent applications</td></tr>
+        </table>
+      </article>
+    </div>
+  </section>
+
+  <section class="question">
+    <div class="qhead"><div class="number">2</div><div><div class="kicker">Understanding · Explain</div><h3>Functional block diagram of a computer</h3></div></div>
+    <article class="card">
+      <div class="diagram">
+        <div class="flow"><span class="node">Input unit</span><span class="arrow">→</span><span class="node">Main memory</span><span class="arrow">↔</span><span class="node teal">CPU</span><span class="arrow">→</span><span class="node">Output unit</span></div>
+        <p class="small">CPU contains the Control Unit (CU), Arithmetic Logic Unit (ALU), and registers. Storage communicates with memory and the system through suitable interfaces.</p>
+      </div>
+      <ul><li><b>Input unit:</b> accepts data and instructions through devices such as a keyboard or scanner and converts them into machine-readable form.</li><li><b>Memory unit:</b> holds instructions, input data, intermediate results, and final results. Primary memory includes RAM and ROM.</li><li><b>CPU:</b> the CU directs and coordinates operations; the ALU performs arithmetic and logical comparisons; registers hold data temporarily for rapid access.</li><li><b>Output unit:</b> presents results through a monitor, printer, speaker, or other output device.</li><li><b>System buses and I/O interfaces:</b> carry data, address information, and control signals between components. The CU coordinates read/write operations and device activity.</li></ul>
+      <p><b>Working:</b> data and instructions enter through input, are stored in memory, and are fetched and executed by the CPU. Results may be stored again or sent to an output device. Control signals coordinate each step.</p>
+    </article>
+  </section>
+
+  <h2>Unit 2 — Input and Output Devices</h2>
+  <section class="question">
+    <div class="qhead"><div class="number">3</div><div><div class="kicker">Applying · Demonstrate</div><h3>Using scanners and card readers on campus</h3></div></div>
+    <div class="grid">
+      <article class="card"><h3>Attendance workflow</h3><div class="diagram"><div class="flow"><span class="node">Student ID / QR</span><span class="arrow">→</span><span class="node">Scanner or RFID</span><span class="arrow">→</span><span class="node teal">Attendance database</span></div></div><ul><li>Assign each student a unique barcode, QR code, RFID card, or smart card.</li><li>At the classroom entrance, scan the ID or tap the card at a reader.</li><li>The system verifies the ID and records the date, time, and class.</li><li>Authorized staff review attendance reports and correct genuine errors.</li></ul></article>
+      <article class="card"><h3>Library checkout workflow</h3><div class="diagram"><div class="flow"><span class="node">Book barcode</span><span class="arrow">+</span><span class="node">Student card</span><span class="arrow">→</span><span class="node teal">Library system</span></div></div><ul><li>Scan the book barcode and student card, or read an RFID tag.</li><li>The library system checks the member and book record.</li><li>It saves the checkout date and due date, and updates availability.</li><li>Return scans update the record and can support overdue reminders.</li></ul></article>
+    </div>
+    <p><b>Benefits:</b> faster records, fewer manual entry errors, easier reporting, and better tracking. <b>Precautions:</b> protect student data, restrict staff access, keep a manual backup, and provide a correction process for failed or duplicate scans.</p>
+  </section>
+
+  <section class="question">
+    <div class="qhead"><div class="number">4</div><div><div class="kicker">Analyzing · Distinguish</div><h3>Low-level and high-level programming languages</h3></div></div>
+    <article class="card"><table><tr><th>Basis</th><th>Machine language</th><th>Assembly language</th><th>High-level language</th></tr>
+      <tr><td>Form</td><td>Binary instructions (0s and 1s)</td><td>Mnemonic codes such as MOV or ADD</td><td>More human-readable statements</td></tr>
+      <tr><td>Hardware dependence</td><td>Very high</td><td>High; usually processor-specific</td><td>Generally lower; often portable</td></tr>
+      <tr><td>Translation</td><td>Executed by hardware directly</td><td>Assembler converts it to machine code</td><td>Compiler or interpreter translates/runs it</td></tr>
+      <tr><td>Execution</td><td>Can be highly efficient</td><td>Can be highly efficient with careful coding</td><td>Performance depends on language, compiler/runtime, and program</td></tr>
+      <tr><td>Programming complexity</td><td>Very difficult to write and debug</td><td>Requires detailed hardware knowledge</td><td>Usually easier to read, write, test, and maintain</td></tr>
+      <tr><td>Examples</td><td>Binary opcodes</td><td>x86 or ARM assembly</td><td>C, C++, Java, Python</td></tr>
+    </table><p><b>Conclusion:</b> low-level languages offer close hardware control, while high-level languages generally improve readability, development speed, and portability.</p></article>
+  </section>
+
+  <section class="question">
+    <div class="qhead"><div class="number">5</div><div><div class="kicker">Analyzing · Compare</div><h3>Point-and-draw devices versus digitizers</h3></div></div>
+    <article class="card"><table><tr><th>Feature</th><th>Mouse / trackball</th><th>Graphics digitizer / drawing tablet</th></tr>
+      <tr><td>Mechanism</td><td>Mouse detects movement across a surface; trackball senses a ball rotated by the user.</td><td>Tablet detects stylus position on an active drawing area.</td></tr>
+      <tr><td>Coordinate tracking</td><td>Usually reports relative movement; cursor position is updated on screen.</td><td>Can map stylus position to tablet coordinates; many support absolute positioning.</td></tr>
+      <tr><td>Precision</td><td>Good for general navigation and many CAD workflows.</td><td>Often better for detailed tracing, sketching, and fine control.</td></tr>
+      <tr><td>Pressure sensitivity</td><td>Typically absent.</td><td>Supported by many styluses; useful for line thickness and shading.</td></tr>
+      <tr><td>Best fit</td><td>Menus, general desktop work, selection, and navigation.</td><td>Digital art, handwriting, illustration, and precise tracing.</td></tr>
+    </table><div class="diagram"><div class="flow"><span class="node">Mouse / trackball</span><span class="arrow">→</span><span class="node">Cursor movement</span></div><div class="flow" style="margin-top:10px"><span class="node teal">Stylus + tablet</span><span class="arrow">→</span><span class="node teal">Position + pressure (if supported)</span></div></div><p>For CAD, the best choice depends on the task: a mouse is efficient for commands and selection, while a digitizer is useful for tracing and freehand input. Tablet specifications and software support determine precision and pressure features.</p></article>
+  </section>
+
+  <section class="question">
+    <div class="qhead"><div class="number">6</div><div><div class="kicker">Evaluating · Assess and justify</div><h3>Plotter versus UHD monitor and large-format printer</h3></div></div>
+    <article class="card"><table><tr><th>Criterion</th><th>Drum / flatbed plotter</th><th>UHD monitor + large-format printer</th></tr>
+      <tr><td>Line work</td><td>Traditional pen plotters can draw continuous precise lines; modern plotters may use other technologies.</td><td>High-resolution display helps inspect detail; printer resolution and media quality determine the final print.</td></tr>
+      <tr><td>Scalability</td><td>Depends on plotter bed/media width and model.</td><td>Digital drawings can be scaled in CAD; print size is limited by printer and roll/sheet width.</td></tr>
+      <tr><td>Workflow</td><td>Specialized direct drawing; older pen plotters are less common today.</td><td>Review and revise on screen, then print multiple sheets or revisions.</td></tr>
+      <tr><td>Cost</td><td>Specialized equipment may have higher maintenance or consumable costs.</td><td>Requires both display and printer; costs include ink/toner, media, calibration, and maintenance.</td></tr>
+    </table><div class="diagram"><div class="flow"><span class="node">CAD file</span><span class="arrow">→</span><span class="node">UHD review</span><span class="arrow">→</span><span class="node teal">Large-format print</span></div></div><p><b>Assessment:</b> for most modern civil-engineering offices, a high-quality CAD workstation plus a reliable large-format printer is the more flexible general-purpose choice because drawings can be reviewed, revised, archived, and reproduced. A specialized plotter may be preferable where a particular workflow demands it. Final selection should compare required line quality, sheet size, throughput, reliability, and total cost over the equipment’s life; “UHD” alone does not determine printed accuracy.</p></article>
+  </section>
+
+  <section class="question">
+    <div class="qhead"><div class="number">7</div><div><div class="kicker">Evaluating · Critique</div><h3>Facial recognition versus voice recognition for authentication</h3></div></div>
+    <article class="card"><table><tr><th>Factor</th><th>Facial recognition</th><th>Voice recognition</th></tr>
+      <tr><td>High ambient noise</td><td>Usually unaffected by sound, but needs a usable camera view and adequate lighting.</td><td>Noise can mask speech and reduce accuracy; microphones and noise cancellation may help.</td></tr>
+      <tr><td>Public exposure</td><td>Can be captured without deliberate speech; raises consent and surveillance concerns.</td><td>Can be overheard or recorded; public noise may cause errors and spoken phrases may be replayed.</td></tr>
+      <tr><td>Presentation attacks</td><td>Photos, screens, masks, or deepfakes may be threats; liveness checks help but are not perfect.</td><td>Recordings or synthetic voices may be threats; challenge phrases and anti-spoofing help but are not perfect.</td></tr>
+      <tr><td>Accessibility</td><td>May be difficult with camera placement, facial changes, or visual conditions.</td><td>May be difficult for users with speech differences or in noisy environments.</td></tr>
+      <tr><td>Privacy and bias</td><td>Requires careful handling of biometric templates and testing across demographic groups.</td><td>Voice data also requires protection and testing across accents, languages, and speech patterns.</td></tr>
+    </table><p><b>Critique:</b> in a noisy public setting, facial recognition may be more practical than voice recognition if lighting and camera placement are suitable, but it should not be treated as infallible. Both systems can fail or be spoofed. Use informed notice, secure storage, liveness/anti-spoofing controls, rate limits, human review, and an alternative authentication method. For sensitive access, combine factors rather than relying on one biometric alone.</p></article>
+  </section>
+
+  <section class="question">
+    <div class="qhead"><div class="number">8</div><div><div class="kicker">Creating · Design</div><h3>Accessible hands-free workstation for a visually impaired user</h3></div></div>
+    <article class="card">
+      <div class="diagram">
+        <div class="flow"><span class="node">Voice recognition</span><span class="arrow">→</span><span class="node">Computer + accessible OS</span><span class="arrow">→</span><span class="node teal">Screen reader / speech output</span></div>
+        <div class="flow" style="margin-top:10px"><span class="node">Tactile keyboard / braille input</span><span class="arrow">↔</span><span class="node">Computer</span><span class="arrow">→</span><span class="node teal">Refreshable Braille display (optional)</span></div>
+      </div>
+      <h3>Proposed components and purpose</h3>
+      <ul><li><b>Voice recognition:</b> supports hands-free dictation, launching apps, navigation, and commands.</li><li><b>Screen reader and voice response synthesizer:</b> reads menus, documents, buttons, notifications, and form labels aloud.</li><li><b>Tactile keyboard:</b> raised or clearly distinguishable keys provide an alternative for precise text entry; it is not hands-free, so it should be optional rather than the only input method.</li><li><b>Refreshable Braille display (optional):</b> presents text as tactile Braille for users who read Braille.</li><li><b>Accessible software:</b> use keyboard-accessible controls, meaningful labels, logical focus order, adjustable speech rate, and shortcuts.</li><li><b>Physical setup:</b> keep cables tidy, provide comfortable headset/microphone placement, and make power and volume controls easy to locate.</li><li><b>Privacy and safety:</b> use headphones where appropriate, secure voice data, confirm important commands before execution, and provide a non-voice fallback.</li></ul>
+      <p><b>Example workflow:</b> the user says “Open my assignment.” Voice recognition opens the document; the screen reader announces its title and reads the content; the user dictates edits; speech output confirms actions. A tactile keyboard or Braille display provides an alternative whenever needed.</p>
+    </article>
+  </section>
+  <section class="intro"><h3>Conclusion</h3>Computers combine input, processing, memory, and output to perform tasks efficiently. Understanding hardware generations, languages, and input/output devices helps users select suitable systems. In real deployments, reliability, privacy, accessibility, maintenance, and total cost should be considered alongside technical performance.</section>
+</main>
+<footer>Prepared for BPT-109 · Assignment 1 · Anjali Yadav</footer>
+</body>
+</html>
